@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "demo",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,8 @@
   },
   "homepage": "https://github.com/modimansi/react-js#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
@@ -23,7 +27,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 versions"
   ]
 }
