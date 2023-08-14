@@ -62,5 +62,21 @@ const HeaderComponent = () => {
     );
 }
 
+const HeadingComponent = () => {
+    return (
+        <div width="99%">
+            <div className="col-lg-3">
+                <img src="D:\react-js\logo.png" />
+            </div>
+            <div className="col-lg-3">
+                Search
+            </div>
+            <div className="col-lg-3">
+                User
+            </div>
+        </div>
+    );
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeaderComponent />);
+root.render(<HeadingComponent />);

@@ -1,3 +1,8 @@
 #container {
     background-color: aqua;
 }
+
+.col-lg-3 {
+    width: 32%;
+    float: left;
+}
